@@ -1,6 +1,6 @@
 # run.py
 import sys
-from cli_test.src.demo_cli_noted import main
+from src.demo_cli import main
 
 if __name__ == "__main__":
     # sys.argv 形如:
