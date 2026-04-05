@@ -1,0 +1,24 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Debug cli_test train",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/cli_test/run.py",
+            "cwd": "${workspaceFolder}/cli_test",
+            "console": "integratedTerminal",
+            "args": [
+                "train",
+                "--fold",
+                "0",
+                "--device",
+                "cpu",
+                "--epochs",
+                "3",
+                "--npz"
+            ],
+            "justMyCode": true
+        }
+    ]
+}

@@ -437,6 +437,7 @@ def build_parser() -> argparse.ArgumentParser:
         #
         # 帮助信息里会看到这段描述。
         description="一个模仿 BraTS 仓库结构的 argparse 示例",
+
         # epilog：
         # 显示在帮助信息末尾的补充说明。
         #
@@ -457,6 +458,7 @@ def build_parser() -> argparse.ArgumentParser:
             "  python run.py train --fold 0 --device cuda --epochs 100 --npz\n"
             "  python run.py predict --input-dir data/in --output-dir data/out --folds 0 1 2 3 4"
         ),
+
         # formatter_class：
         # 指定帮助信息的格式化器。
         #
